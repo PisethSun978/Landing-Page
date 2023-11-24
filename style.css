@@ -24,7 +24,7 @@ h1,h2{
     padding: 0 30px;
 }
 .navbar{
-    background: rgb(189, 189, 189);
+    background: white;
     color: rgb(0, 0, 0);
     height: 60px;
 }
@@ -42,13 +42,13 @@ ul{
     height: 100%;
 }
 .navbar a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
 }
 .navbar a:hover{
-    color: rgb(255, 189, 46);
+    color: slategray
 }
 .navbar ul{
     display: flex;
@@ -104,4 +104,9 @@ ul{
         display:block;
         text-align: center;
     }
+}
+.logo{
+    height: 60px;
+    width: 100px;
+    margin-top: auto;
 }
