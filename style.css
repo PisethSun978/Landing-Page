@@ -12,6 +12,10 @@ body{
     background:rgb(160, 166, 173);
 
 }
+section{
+    width: 100%;
+    padding: 32px;
+}
 img{
     max-width: 100%;
 }
@@ -48,7 +52,7 @@ ul{
     font-weight: bold;
 }
 .navbar a:hover{
-    color: slategray
+    color: lightseagreen
 }
 .navbar ul{
     display: flex;
@@ -110,3 +114,69 @@ ul{
     width: 100px;
     margin-top: auto;
 }
+.signup{
+    margin: 20px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: rgb(89, 114, 89);
+    border-radius: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 238, 237);
+    height: 100px;
+    width: auto;
+    align-items: center;
+    font-size: 36px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+  }
+  .quote-box{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+    align-items: center;
+    text-align: center;
+  }
+  .quote{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+  }
+  .quote-boxes{
+    background-color: beige;
+    text-align: center;
+  }
+  .callToSignup{
+    display: flex;
+   background-color: aquamarine;
+   width: 800px;
+   height: 120px;
+   border-radius: 10px;
+   justify-content: center;
+  }
+  
+  .signup{
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-end;
+  }
